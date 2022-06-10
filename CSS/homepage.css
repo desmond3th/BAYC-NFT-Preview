@@ -6,6 +6,8 @@
 }
 
 body {
+  background-image: url(images/star.gif);
+  background-size: auto;
   display: flex;
   flex-flow: nowrap column;
   margin-top: 200px;
