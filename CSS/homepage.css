@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:ital,wght@1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-flow: nowrap column;
+  margin-top: 200px;
+  align-items: center;
+  background-color: black;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  margin-top: 100px;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  background: linear-gradient(to right, #b993d6, #8ca6db);
+  border: none;
+  transition: all 0.5s;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn:hover {
+  border-radius: 5px;
+  transform: translateY(-12px);
+  box-shadow: 0 7px 0 -2px #f85959, 0 15px 0 -4px #39a2db,
+    0 16px 10px -3px #39a2db;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

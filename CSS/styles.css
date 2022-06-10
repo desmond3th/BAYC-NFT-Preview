@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+  color: white;
+} 
+ 
+main{
+    background-color: hsl(217deg, 54%, 11%);
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    height: 100vh; 
+} 
+
+.nft-card {
+    width: 330px;
+    height: auto;
+    background-color: hsl(216deg, 50%, 16%);
+    display: flex;
+    flex-flow: nowrap column;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12)
+                  0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+.nft-image {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    transition: 0.5s ;
+}
+
+.nft-card:hover{
+    margin-top: -30px;
+    transition: all .4s;
+} 
+
+.nft-card h1 { 
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.nft-card h1:hover {
+    color: hsl(178deg, 100%, 50%);
+    cursor: default;
+}
+
+.nft-card p {
+    font-size: 18px;
+    font-weight: 350;
+    color: hsl(215deg, 51%, 70%);
+}
+  
+.nft-info {
+    margin: 15px 0 0px;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.eth {
+    font-size: 18px;
+    color: hsl(178deg, 100%, 50%);
+}
+
+.time {
+    font-size: 17px;
+    color: hsl(215deg, 51%, 70%);
+}
+  
+hr {
+    height: 2px;
+    background-color: hsl(215deg, 32%, 27%);
+    border: none; 
+    margin: 15px 0 15px 0;   
+}
+   
+.creator {
+    /* margin-top: 15px; */
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+.creator img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.creator p {
+    font-size: 14px;
+    margin-left: 10px;
+    color: hsl(215deg, 51%, 70%);
+}
+
+.creator span:hover {
+    color: hsl(178deg, 100%, 50%);
+    cursor: pointer;
+    
+}
+
+.buy{
+    width: auto;
+    height: 57px;
+    align-items: center;
+    margin: 0; 
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    background-color: rgb(32, 129, 226);
+    border: 1px solid rgb(32, 129, 226);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.buy:hover{
+    background-color: rgb(99, 146, 193);
+}
+
+.buy a:link{
+    text-decoration: none;
+}
+  
+.coded-by {
+    width: 100%;
+    height: auto;
+    background-color: hsl(216deg, 50%, 16%);
+    text-align: center;
+}
+
+.blue-color {
+    color:blue;
+}
