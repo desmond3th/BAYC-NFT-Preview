@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(images/star.gif);
+  background-image: url(/images/star.gif);
   background-size: auto;
   display: flex;
   flex-flow: nowrap column;
